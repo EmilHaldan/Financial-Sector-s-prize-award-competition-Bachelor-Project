@@ -1,0 +1,24 @@
+Scores on Test: Loss:5.5014557838  MAE:5.5014557838  MSE:70.6257476807  MAPE:2947811.0000000000 
+Optimzer: RMSprop  Learning_rate: 0.00050  Dense Layer: 1 
+Future_candles: 3  Window_size: 28  Drop_out: 0 
+Epochs: 1000  Batch_size: 64  Run_time: 1 min 32 seconds 
+Stride: 1  Activation_function: tanh 
+
+Model: "sequential_20"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+input_layer_CONV_id1 (Conv2D (None, 22, 92, 12)        600       
+_________________________________________________________________
+input_layer_MAX_Pool2D_id1 ( (None, 11, 46, 12)        0         
+_________________________________________________________________
+Flatten_layer_id1 (Flatten)  (None, 6072)              0         
+_________________________________________________________________
+1_dense_layer_id1 (Dense)    (None, 100)               607300    
+_________________________________________________________________
+Output_layer_id1 (Dense)     (None, 1)                 101       
+=================================================================
+Total params: 608,001
+Trainable params: 608,001
+Non-trainable params: 0
+_________________________________________________________________
